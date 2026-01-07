@@ -1,0 +1,6 @@
+@Goldiran.VOIPPanel.HostedService_HostAddress = http://localhost:5235
+
+GET {{Goldiran.VOIPPanel.HostedService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

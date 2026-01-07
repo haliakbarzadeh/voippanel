@@ -1,0 +1,15 @@
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.VOIPPanel.HostedService.exe
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.VOIPPanel.HostedService.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.VOIPPanel.HostedService.deps.json
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.VOIPPanel.HostedService.runtimeconfig.json
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.VOIPPanel.HostedService.pdb
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\AutoMapper.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.Framework.Domain.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.HostedService\obj\Release\net8.0\PubTmp\Out\Goldiran.Framework.Domain.pdb

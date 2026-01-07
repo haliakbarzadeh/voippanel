@@ -1,0 +1,11 @@
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\bin\Debug\net8.0\Goldiran.VOIPPanel.Mapping.deps.json
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\bin\Debug\net8.0\Goldiran.VOIPPanel.Mapping.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\bin\Debug\net8.0\Goldiran.VOIPPanel.Mapping.pdb
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.AssemblyInfoInputs.cache
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.AssemblyInfo.cs
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.csproj.CoreCompileInputs.cache
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\refint\Goldiran.VOIPPanel.Mapping.dll
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\Goldiran.VOIPPanel.Mapping.pdb
+D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Goldiran.VOIPPanel.Mapping\obj\Debug\net8.0\ref\Goldiran.VOIPPanel.Mapping.dll

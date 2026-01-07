@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AggregatesModel\QueueLimitations\ValueObjects\HourValue.cs" />
+    <Compile Remove="AggregatesModel\QueueLimitations\ValueObjects\HourValue1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.39" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AggregatesModel\MonitoredPositions\Enums\" />
+    <Folder Include="AggregatesModel\OperationSettings\Enums\" />
+    <Folder Include="AggregatesModel\QueueLimitations\ValueObjects\" />
+    <Folder Include="AggregatesModel\Queus\Enums\" />
+    <Folder Include="AggregatesModel\Tokens\Enums\" />
+    <Folder Include="AggregatesModel\UserPositions\Enums\" />
+    <Folder Include="Common\Dtos\" />
+    <Folder Include="Common\Mappers\" />
+    <Folder Include="Common\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Voip.Framework.Application">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Common">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Domain">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.EFCore">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,315 @@
+2025-07-27 11:08:29.813 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:08:33.006 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:08:46.300 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:d92abdf6-0735-4388-be61-eb80854701ce
+Error Number:102,State:1,Class:15
+2025-07-27 11:09:02.868 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:d92abdf6-0735-4388-be61-eb80854701ce
+Error Number:102,State:1,Class:15
+2025-07-27 11:10:05.350 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:d92abdf6-0735-4388-be61-eb80854701ce
+Error Number:102,State:1,Class:15
+2025-07-27 11:18:53.997 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:18:55.897 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:19:44.299 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:9485061d-95e4-45fd-b330-c78bf8d8ede2
+Error Number:102,State:1,Class:15
+2025-07-27 11:19:44.299 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:7ca317f1-c7b6-4efc-80ef-8e76021439c1
+Error Number:102,State:1,Class:15
+2025-07-27 11:20:26.612 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '789'.
+Invalid usage of the option next in the FETCH statement.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:9485061d-95e4-45fd-b330-c78bf8d8ede2
+Error Number:102,State:1,Class:15
+2025-07-27 11:23:37.345 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:23:38.381 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:24:03.521 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userid'.
+Invalid column name 'CreateByUser'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:6fa0373e-7f69-4cb2-aa2d-5b4b66ce456e
+Error Number:207,State:1,Class:16
+2025-07-27 11:42:38.232 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userid'.
+Invalid column name 'CreateByUser'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsServiceWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 373
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 306
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 102
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:6fa0373e-7f69-4cb2-aa2d-5b4b66ce456e
+Error Number:207,State:1,Class:16
+2025-07-27 11:52:04.369 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:52:05.964 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:53:28.630 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter)
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:8f81fe8b-34a8-43f5-a825-316ce946223a
+Error Number:102,State:1,Class:15
+2025-07-27 11:56:29.530 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:56:30.755 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:56:59.816 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 401
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 310
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 103
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:0eb71a84-74fc-4ba7-8e78-08e963e94755
+Error Number:102,State:1,Class:15
+2025-07-27 11:57:49.162 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 11:57:50.783 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 11:58:23.945 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Invalid usage of the option next in the FETCH statement.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 401
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 310
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\ServiceWallboardReportQueryService.cs:line 103
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:2efd3428-0f58-4737-87a0-b94547d053e9
+Error Number:102,State:1,Class:15
+2025-07-27 12:00:04.049 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Invalid usage of the option next in the FETCH statement.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter)
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:2efd3428-0f58-4737-87a0-b94547d053e9
+Error Number:102,State:1,Class:15
+2025-07-27 12:00:25.131 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userid'.
+Invalid column name 'CreateByUser'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter)
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:2efd3428-0f58-4737-87a0-b94547d053e9
+Error Number:207,State:1,Class:16
+2025-07-27 12:01:37.807 +03:30 [ERR] Request: Unhandled Exception for Request GetServiceWallboardsQuery {"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetServiceWallboardsQuery"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'userid'.
+Invalid column name 'CreateByUser'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetGsTamdidWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, String personalCodes)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetWallboardUserList(String serviceType, DateTime fromDate, DateTime toDate, List`1 users)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.ServiceWallboardReportQueryService.GetServiceWallboardsInfo(GetServiceWallboardsQuery filter)
+   at Goldiran.VOIPPanel.Application.Features.AskCustomers.Queries.GetServiceWallboardReportQueryHandler.Handle(GetServiceWallboardsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\WallboardReports\Queries\GetServiceWallboardReportQueryHandler.cs:line 38
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+ClientConnectionId:2efd3428-0f58-4737-87a0-b94547d053e9
+Error Number:207,State:1,Class:16
+2025-07-27 12:04:49.543 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 12:04:50.592 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 12:34:17.565 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 12:34:20.884 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 12:34:22.285 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-07-27 13:00:52.968 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:00:58.576 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:01:09.598 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-07-27 13:01:14.626 +03:30 [ERR] Request: Unhandled Exception for Request GetContactDetailsQuery {"IsRestricted":true,"ContactReportType":"Detail","IsJob":false,"FromDate":null,"ToDate":null,"FromTime":null,"ToTime":null,"TypeCalls":[],"Agents":null,"Phone":null,"OrderBy":null,"OperationReportType":null,"PositionIds":[],"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":true,"$type":"GetContactDetailsQuery"}
+Voip.Framework.Common.Exceptions.ValidationException: One or more validation failures have occurred.
+   at Goldiran.VOIPPanel.Application.Features.ContactDetails.Queries.GetContactDetailsQueryHandler.Handle(GetContactDetailsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\ContactDetails\Queries\GetContactDetailsQueryHandler.cs:line 28
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-07-27 13:01:38.984 +03:30 [ERR] Request: Unhandled Exception for Request GetQueueLogsQuery {"FromDate":null,"ToDate":null,"FromTime":null,"ToTime":null,"Agents":[],"Phone":null,"Queues":[],"QueueLogEvents":[],"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":1,"UserId":1,"UserIp":"::1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":true,"$type":"GetQueueLogsQuery"}
+Voip.Framework.Common.Exceptions.ValidationException: One or more validation failures have occurred.
+   at Goldiran.VOIPPanel.Application.Features.ContactDetails.Queries.GetQueueLogDetailsQueryHandler.Handle(GetQueueLogsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\ContactDetails\Queries\GetQueueLogDetailsQueryHandler.cs:line 30
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-07-27 13:22:17.999 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:22:20.634 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:26:37.581 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:26:38.655 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:32:18.942 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:32:20.488 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:39:17.927 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:39:18.974 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:40:51.262 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:40:52.327 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 13:49:21.680 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 13:49:23.208 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 14:01:06.507 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 14:01:07.650 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 15:44:51.910 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 15:44:53.223 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 15:47:24.848 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 15:47:26.461 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 15:49:19.279 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 15:49:20.355 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 16:33:42.893 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 16:33:50.133 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 16:44:31.102 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 16:44:32.197 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-27 17:07:43.188 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-27 17:07:44.300 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

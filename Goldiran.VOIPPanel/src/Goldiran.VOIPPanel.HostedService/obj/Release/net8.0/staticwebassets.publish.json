@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9B6QjtlY4/9naI7JBkMsAsupJVXFQGiLg1fHCeLKAHo=",
+  "Source": "Goldiran.VOIPPanel.HostedService",
+  "BasePath": "_content/Goldiran.VOIPPanel.HostedService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

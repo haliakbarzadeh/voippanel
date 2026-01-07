@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Queries\QueryServices\AppRoleClaimQueryService.cs" />
+    <Compile Remove="Queries\QueryServices\TokenQueryService.cs" />
+    <Compile Remove="VOIPPanelReadModelContext.Read.cs" />
+    <Compile Remove="VOIPPanelReadModelContext.ReadModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Goldiran.VOIPPanel.Domain\Goldiran.VOIPPanel.Domain.csproj" />
+    <ProjectReference Include="..\..\core\Goldiran.VOIPPanel.Entities\Goldiran.VOIPPanel.ReadModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Voip.Framework.Caching">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Common">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Domain">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.EFCore">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

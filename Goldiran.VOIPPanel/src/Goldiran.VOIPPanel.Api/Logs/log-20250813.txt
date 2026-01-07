@@ -1,0 +1,10 @@
+2025-08-13 10:04:17.690 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-13 10:04:19.596 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-13 10:04:54.017 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-13 10:04:55.289 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-13 11:19:13.269 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-13 11:19:14.567 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-13 11:19:16.025 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-08-13 11:19:24.415 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-08-13 11:19:43.998 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-08-13 11:19:50.666 +03:30 [INF] AuthenticationScheme: Identity.Application signed in.

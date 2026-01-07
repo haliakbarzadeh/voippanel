@@ -1,0 +1,4 @@
+2025-11-08 10:50:10.313 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-11-08 10:50:12.255 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-11-08 11:37:39.564 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-11-08 11:37:40.806 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

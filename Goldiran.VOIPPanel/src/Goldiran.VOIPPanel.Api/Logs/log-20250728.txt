@@ -1,0 +1,10 @@
+2025-07-28 10:29:52.214 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-28 10:29:52.276 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-28 10:30:42.573 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-28 10:30:43.965 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-28 10:31:38.669 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-28 10:31:39.771 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-28 10:48:14.040 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-28 10:48:15.227 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-07-28 10:50:04.165 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-07-28 10:50:05.469 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

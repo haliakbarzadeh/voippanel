@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enums\AMStatusType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Goldiran.VOIPPanel.Domain\Goldiran.VOIPPanel.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Voip.Framework.Common">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Domain">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.EFCore">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

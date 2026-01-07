@@ -1,0 +1,119 @@
+2025-10-06 08:38:21.208 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 08:38:24.491 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-10-06 08:38:26.135 +03:30 [ERR] Request: Unhandled Exception for Request GetFileByIdQuery {"Id":"90291e39-3073-4f4b-a4e5-9c53597f94b7","$type":"GetFileByIdQuery"}
+Voip.Framework.Common.Exceptions.NotFoundException: Entity "File" (90291e39-3073-4f4b-a4e5-9c53597f94b7) was not found.
+   at Goldiran.VOIPPanel.Application.Features.Files.Queries.GetFileByIdQueryHandler.Handle(GetFileByIdQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\Files\Queries\GetFileByIdQueryHandler.cs:line 28
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-10-06 08:39:33.137 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Goldiran.VOIPPanel.QueryHandler.AsteriskReadModelContext'.
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-06 08:41:50.878 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 08:41:53.472 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-10-06 08:42:32.037 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Goldiran.VOIPPanel.QueryHandler.AsteriskReadModelContext'.
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-06 08:43:35.416 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Goldiran.VOIPPanel.QueryHandler.AsteriskReadModelContext'.
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-06 08:45:11.557 +03:30 [ERR] Request: Unhandled Exception for Request GetDetailsQueueLogsQuery {"FromDate":"2025-09-23T00:00:00.0000000","ToDate":"2025-10-06T00:00:00.0000000","Queues":[11,12],"PageNumber":1,"PageSize":10,"Sort":"","Search":"","DisablePaging":false,"PositionId":11,"UserId":17,"UserIp":"127.0.0.1","HasContentAccess":true,"PositionCildIds":[],"MonitoredPositionIds":[],"HasVerticalSecurity":false,"$type":"GetDetailsQueueLogsQuery"}
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.QueueLogDetailsQueryService.GetQueueLogDetailss(GetDetailsQueueLogsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\QueueLogDetailsQueryService.cs:line 97
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.QueueLogDetailsQueryService.GetQueueLogDetailss(GetDetailsQueueLogsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\QueueLogDetailsQueryService.cs:line 147
+   at Goldiran.VOIPPanel.QueryHandler.Queries.QueryServices.QueueLogDetailsQueryService.GetQueueLogDetailss(GetDetailsQueueLogsQuery filter) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.ReadModel\Queries\QueryServices\QueueLogDetailsQueryService.cs:line 143
+   at Goldiran.VOIPPanel.Application.Features.ContactDetails.Queries.GetQueueHoursLogDetailsQueryHandler.Handle(GetDetailsQueueLogsQuery request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\ContactDetails\Queries\GetQueueHoursLogDetailsQueryHandler.cs:line 33
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-10-06 08:45:54.709 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Goldiran.VOIPPanel.QueryHandler.AsteriskReadModelContext'.
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-06 08:47:09.544 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 08:47:11.235 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-10-06 08:48:09.845 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Goldiran.VOIPPanel.QueryHandler.AsteriskReadModelContext'.
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+ ---> MySqlConnector.MySqlException (0x80004005): Query execution was interrupted
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 244
+   at MySqlConnector.Core.ResultSet.ScanRowAsync(IOBehavior ioBehavior, Row row, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 252
+   at MySqlConnector.Core.ResultSet.ReadAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ResultSet.cs:line 207
+   at MySqlConnector.MySqlDataReader.ReadAsync(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 38
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-10-06 08:54:57.317 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 08:54:58.383 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-10-06 08:57:37.882 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 08:57:39.325 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-10-06 09:04:17.640 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-10-06 09:04:18.676 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

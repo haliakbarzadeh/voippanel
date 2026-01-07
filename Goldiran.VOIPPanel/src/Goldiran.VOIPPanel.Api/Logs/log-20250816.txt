@@ -1,0 +1,695 @@
+2025-08-16 10:34:18.238 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:34:19.856 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:34:22.592 +03:30 [ERR] An exception occurred in the database while saving changes for context type 'Goldiran.VOIPPanel.Persistence.VOIPPanelContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-08-16 10:34:23.011 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 197
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 10:34:23.432 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"Id":0,"HourTypeId":"One","Value":0,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 197
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 10:35:31.475 +03:30 [ERR] An exception occurred in the database while saving changes for context type 'Goldiran.VOIPPanel.Persistence.VOIPPanelContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-08-16 10:35:31.784 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 197
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 10:35:32.235 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"Id":0,"HourTypeId":"One","Value":20,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'QueueLimitationId', table 'VOIPPanelDB.dbo.HourValue'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:61e15369-92c3-454a-8a8d-6cb789a78d73
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 197
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 10:40:52.731 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:40:53.819 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:43:02.799 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:43:03.721 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:46:47.438 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:46:48.350 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:48:57.705 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:48:58.611 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:51:21.467 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:51:22.418 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 10:56:41.174 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 10:56:42.227 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:00:29.736 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:00:30.636 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:07:22.091 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:07:23.161 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:08:55.485 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:08:56.376 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:10:12.594 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:10:17.839 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:22:08.159 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:22:09.135 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:26:07.423 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:26:08.351 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:28:35.387 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:28:36.308 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:29:19.139 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:29:22.320 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:32:36.577 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:32:37.564 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:32:52.925 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:32:56.061 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:33:24.099 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:33:27.856 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:34:30.415 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:34:34.709 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:35:07.211 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:35:07.458 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries[TEntity]()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 181
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:35:47.588 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:35:48.581 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:35:53.018 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:35:53.279 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:36:18.025 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 11:36:18.259 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entity types 'QueueLimitation' and 'HourValue' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 11:37:19.630 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:37:20.574 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:38:20.502 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:38:21.427 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:39:02.546 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:39:03.485 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:41:23.135 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:41:24.811 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:43:03.577 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:43:04.564 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:46:05.004 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:46:06.422 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:54:00.055 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:54:00.982 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 11:59:17.128 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 11:59:18.349 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 12:05:41.528 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 12:05:42.564 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:06:39.170 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:06:40.482 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:11:37.030 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:11:38.553 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:21:28.105 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:21:29.058 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:22:36.724 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:22:37.689 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:27:31.272 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:27:32.229 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:30:04.504 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:30:05.488 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-08-16 13:30:52.914 +03:30 [ERR] خطا در تراکنش های دیتابیس System.Func`1[System.String]:System.Func`1[System.Int32]
+System.InvalidOperationException: The association between entities 'QueueLimitation' and 'HourValue' with the key value '{QueueLimitationId: 3}' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+2025-08-16 13:30:57.507 +03:30 [ERR] Request: Unhandled Exception for Request UpdateQueueLimitationCommand {"Id":3,"QueueId":2,"HourValues":[{"HourTypeId":"One","Value":25,"$type":"UptadedHourValue"}],"PositionId":null,"UserId":null,"UserIp":"::1","HasContentAccess":true,"HasVerticalSecurity":false,"PositionCildIds":[],"MonitoredPositionIds":[],"IsTransactional":false,"$type":"UpdateQueueLimitationCommand"}
+System.InvalidOperationException: The association between entities 'QueueLimitation' and 'HourValue' with the key value '{QueueLimitationId: 3}' has been severed, but the relationship is either marked as required or is implicitly required because the foreign key is not nullable. If the dependent/child entity should be deleted when a required relationship is severed, configure the relationship to use cascade deletes.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleConceptualNulls(Boolean sensitiveLoggingEnabled, Boolean force, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.HandleNullForeignKey(IProperty property, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete, CurrentValueType valueType)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetProperty(IPropertyBase propertyBase, Object value, Boolean isMaterialization, Boolean setModified, Boolean isCascadeDelete)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.set_Item(IPropertyBase propertyBase, Object value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.ConditionallyNullForeignKeyProperties(InternalEntityEntry dependentEntry, InternalEntityEntry principalEntry, IForeignKey foreignKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Goldiran.VOIPPanel.Persistence.VOIPPanelContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\VOIPPanelContext.cs:line 178
+   at Goldiran.VOIPPanel.Application.Features.QueueLimitations.Commands.UpdateQueueLimitation.UpdateQueueLimitationCommand.Handler.Handle(UpdateQueueLimitationCommand request, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Features\QueueLimitations\Commands\UpdateQueueLimitations\UpdateQueueLimitationCommand.cs:line 68
+   at Goldiran.VOIPPanel.Persistence.Common.Behaviours.TransactionService`1.SetTransaction(BaseAudityModel request, Func`1 action) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\Infra\Goldiran.VOIPPanel.Persistence\Common\Behaviours\TransactionService.cs:line 34
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.TransactionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\TransactionBehaviour.cs:line 21
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\ValidationBehaviour.cs:line 35
+   at Goldiran.VOIPPanel.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\akbarzadeh\Projects\VOIP\goldiran-voip-panel\Goldiran.VOIPPanel\src\core\Goldiran.VOIPPanel.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2025-08-16 13:34:30.211 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-08-16 13:34:31.166 +03:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

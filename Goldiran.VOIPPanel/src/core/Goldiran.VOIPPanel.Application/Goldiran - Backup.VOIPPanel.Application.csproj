@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\MonitoredPositions\Commands\UpdateMonitoredPositions\**" />
+    <Compile Remove="Features\UserPositions\Commands\CreateMultiUserPositions\**" />
+    <Compile Remove="Features\UserPositions\Commands\CreateUserMultiPositions\**" />
+    <Compile Remove="Features\_UserManagement\Account\ChangeAllPasswordCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\EnableTwoFactorCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\GetTwoFactorCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\LoginCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\LogoutCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\RemoveTwoFactorCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\RevokeCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\TwoFactorLoginCommand\**" />
+    <Compile Remove="Features\_UserManagement\Account\VerifyLoginWithOTPCommand\**" />
+    <Compile Remove="Features\_UserManagement\Users\Commands\ForgotPassword\**" />
+    <Compile Remove="Features\_UserManagement\Users\Commands\SetUserPassword\**" />
+    <Compile Remove="Features\_UserManagement\Users\Commands\UpdateUserByDep\**" />
+    <EmbeddedResource Remove="Features\MonitoredPositions\Commands\UpdateMonitoredPositions\**" />
+    <EmbeddedResource Remove="Features\UserPositions\Commands\CreateMultiUserPositions\**" />
+    <EmbeddedResource Remove="Features\UserPositions\Commands\CreateUserMultiPositions\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\ChangeAllPasswordCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\EnableTwoFactorCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\GetTwoFactorCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\LoginCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\LogoutCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\RemoveTwoFactorCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\RevokeCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\TwoFactorLoginCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Account\VerifyLoginWithOTPCommand\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Users\Commands\ForgotPassword\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Users\Commands\SetUserPassword\**" />
+    <EmbeddedResource Remove="Features\_UserManagement\Users\Commands\UpdateUserByDep\**" />
+    <None Remove="Features\MonitoredPositions\Commands\UpdateMonitoredPositions\**" />
+    <None Remove="Features\UserPositions\Commands\CreateMultiUserPositions\**" />
+    <None Remove="Features\UserPositions\Commands\CreateUserMultiPositions\**" />
+    <None Remove="Features\_UserManagement\Account\ChangeAllPasswordCommand\**" />
+    <None Remove="Features\_UserManagement\Account\EnableTwoFactorCommand\**" />
+    <None Remove="Features\_UserManagement\Account\GetTwoFactorCommand\**" />
+    <None Remove="Features\_UserManagement\Account\LoginCommand\**" />
+    <None Remove="Features\_UserManagement\Account\LogoutCommand\**" />
+    <None Remove="Features\_UserManagement\Account\RemoveTwoFactorCommand\**" />
+    <None Remove="Features\_UserManagement\Account\RevokeCommand\**" />
+    <None Remove="Features\_UserManagement\Account\TwoFactorLoginCommand\**" />
+    <None Remove="Features\_UserManagement\Account\VerifyLoginWithOTPCommand\**" />
+    <None Remove="Features\_UserManagement\Users\Commands\ForgotPassword\**" />
+    <None Remove="Features\_UserManagement\Users\Commands\SetUserPassword\**" />
+    <None Remove="Features\_UserManagement\Users\Commands\UpdateUserByDep\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\Services\IdentityService\Services\ConfirmEmailDataProtectorTokenProvider.cs" />
+    <Compile Remove="Common\Services\IdentityService\Services\UsedPasswordsService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AsterNET.NetStandard" Version="2.2.1" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NPOI" Version="2.7.2" />
+    <PackageReference Include="SixLaborsCaptcha.Core" Version="1.0.0" />
+    <PackageReference Include="SixLaborsCaptcha.Mvc.Core" Version="1.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Goldiran.VOIPPanel.Domain\Goldiran.VOIPPanel.Domain.csproj" />
+    <ProjectReference Include="..\Goldiran.VOIPPanel.Entities\Goldiran.VOIPPanel.ReadModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Operations\Mappers\" />
+    <Folder Include="Features\Positions\Mappers\" />
+    <Folder Include="Features\MonitoredPositions\Dtos\" />
+    <Folder Include="Features\UserPositions\Dtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Voip.Framework.Caching">
+      <HintPath>..\..\..\..\..\..\goldiran-framework\src\Voip.Framework.Application\bin\Debug\net8.0\Voip.Framework.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Application">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Caching">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Common">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.Domain">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Voip.Framework.EFCore">
+      <HintPath>..\..\..\..\Framework\Voip.Framework.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
