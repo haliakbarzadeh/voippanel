@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Goldiran.VOIPPanel.ReadModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630d0f2777cde06551a0a220903075ce120840dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82696e0cbab7727db2ac3a1628f3393c0ca2c078")]
 [assembly: System.Reflection.AssemblyProductAttribute("Goldiran.VOIPPanel.ReadModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Goldiran.VOIPPanel.ReadModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

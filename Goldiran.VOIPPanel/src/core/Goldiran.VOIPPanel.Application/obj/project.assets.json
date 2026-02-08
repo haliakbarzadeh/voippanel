@@ -6719,11 +6719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj",
+      "projectUniqueName": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj",
       "projectName": "Goldiran.VOIPPanel.Application",
-      "projectPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj",
+      "projectPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj",
       "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
-      "outputPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\obj\\",
+      "outputPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6737,18 +6737,17 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\h.akbarzadeh\\.nuget\\packages": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj": {
-              "projectPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj"
+            "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj": {
+              "projectPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj"
             },
-            "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj": {
-              "projectPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj"
+            "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj": {
+              "projectPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj"
             }
           }
         }

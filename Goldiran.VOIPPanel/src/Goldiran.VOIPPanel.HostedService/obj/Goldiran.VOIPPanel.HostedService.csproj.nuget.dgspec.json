@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj": {}
+    "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj": {}
   },
   "projects": {
-    "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj": {
+    "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
+        "projectUniqueName": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
         "projectName": "Goldiran.VOIPPanel.HostedService",
-        "projectPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
+        "projectPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
         "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
-        "outputPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\obj\\",
+        "outputPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\h.akbarzadeh\\.nuget\\packages": {}
         },
         "frameworks": {
           "net8.0": {

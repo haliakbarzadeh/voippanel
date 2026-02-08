@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4y5oRy35gno=",
+  "dgSpecHash": "jePdFEW5VMc=",
   "success": true,
-  "projectFilePath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
+  "projectFilePath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

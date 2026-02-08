@@ -1,94 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\",
+  "WorkspaceRootPath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\contactdetailsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\contactdetailsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|solutionrelative:src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\contactdetailsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\positions\\commands\\createposition\\createpositioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\positions\\commands\\createposition\\createpositioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\rasads\\queries\\getcalltyperasadqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\rasads\\queries\\getcalltyperasadqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\common\\behaviours\\loggingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\common\\behaviours\\loggingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getcontactdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getcontactdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getcontactdetailsbylinkedidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getcontactdetailsbylinkedidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\usermanagement\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\usermanagement\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getautodialsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\contactdetails\\queries\\getautodialsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\aggregatesmodel\\contactdetails\\contactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\aggregatesmodel\\contactdetails\\contactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\aggregatesmodel\\contactdetails\\enums\\reporttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\aggregatesmodel\\contactdetails\\enums\\reporttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\testasternettcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\testasternettcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6A91B48-B827-4E54-ABA8-951BAB48C6E7}|src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\goldiran.voippanel.hostedservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6A91B48-B827-4E54-ABA8-951BAB48C6E7}|src\\Goldiran.VOIPPanel.HostedService\\Goldiran.VOIPPanel.HostedService.csproj|solutionrelative:src\\goldiran.voippanel.hostedservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\goldiran.voippanel.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\goldiran.voippanel.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\flatcontactdetails\\commands\\createflatcontactdetailjob\\createflatcontactdetaillistjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\flatcontactdetails\\commands\\createflatcontactdetailjob\\createflatcontactdetaillistjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\flatcontactdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\flatcontactdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\authorization\\policyauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\authorization\\policyauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\_apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\_apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\monitoredpositions\\commands\\createmonitoredpositions\\createmonitoredpositioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\monitoredpositions\\commands\\createmonitoredpositions\\createmonitoredpositioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\staticdatascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\staticdatascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.application\\features\\_usermanagement\\users\\mappers\\commandusermapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EF9C55-800B-4D8B-AFEE-7E0AB078E872}|src\\core\\Goldiran.VOIPPanel.Application\\Goldiran.VOIPPanel.Application.csproj|solutionrelative:src\\core\\goldiran.voippanel.application\\features\\_usermanagement\\users\\mappers\\commandusermapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\securecallqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|solutionrelative:src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\securecallqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\common\\models\\permissiondefinitionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\common\\models\\permissiondefinitionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\goldiran.voippanel.api\\controllers\\securecallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479C9D15-F894-4B67-A613-382EB4A7CDA6}|src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.csproj|solutionrelative:src\\goldiran.voippanel.api\\controllers\\securecallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\common\\models\\identitycommonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\common\\models\\identitycommonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\queryrequest\\getapproleclaimsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\queryrequest\\getapproleclaimsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\servicewallboardreportqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|solutionrelative:src\\infra\\goldiran.voippanel.readmodel\\queries\\queryservices\\servicewallboardreportqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\entities\\voip\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\entities\\voip\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.domain\\common\\entities\\usermanagement\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5707C6AE-9686-4BAA-83A9-242A6C4D0736}|src\\core\\Goldiran.VOIPPanel.Domain\\Goldiran.VOIPPanel.Domain.csproj|solutionrelative:src\\core\\goldiran.voippanel.domain\\common\\entities\\usermanagement\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\users\\typeconfigurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|solutionrelative:src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\users\\typeconfigurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\monitoredpositiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\monitoredpositiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.readmodel\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC328BB-FDAC-4B36-94E7-6CF8777F1BCB}|src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Goldiran.VOIPPanel.QueryHandler.csproj|solutionrelative:src\\infra\\goldiran.voippanel.readmodel\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\filerowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\filerowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\projects\\voip\\goldiran-voip-panel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\entities\\asterisk\\securecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\entities\\asterisk\\securecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\core\\goldiran.voippanel.entities\\dto\\voip\\filedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE87FDA-7FD0-4DFF-B879-F365A5F7630F}|src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj|solutionrelative:src\\core\\goldiran.voippanel.entities\\dto\\voip\\filedisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|solutionrelative:src\\infra\\goldiran.voippanel.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roles\\approlestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|solutionrelative:src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roles\\approlestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roles\\approlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|solutionrelative:src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roles\\approlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|d:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\goldiran.voippanel\\src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roleclaims\\typeconfigurations\\approleclaimconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F13A7869-F4AE-4991-BBCF-69664E625820}|src\\Infra\\Goldiran.VOIPPanel.Persistence\\Goldiran.VOIPPanel.Persistence.csproj|solutionrelative:src\\infra\\goldiran.voippanel.persistence\\common\\usermanagement\\roleclaims\\typeconfigurations\\approleclaimconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,277 +118,333 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreatePositionCommand.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\Positions\\Commands\\CreatePosition\\CreatePositionCommand.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\Positions\\Commands\\CreatePosition\\CreatePositionCommand.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\Positions\\Commands\\CreatePosition\\CreatePositionCommand.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\Positions\\Commands\\CreatePosition\\CreatePositionCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ContactDetailsQueryService.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
+              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T07:22:50.704Z",
+              "WhenOpened": "2026-01-25T10:59:18.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T12:30:05.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoggingBehaviour.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Common\\Behaviours\\LoggingBehaviour.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Common\\Behaviours\\LoggingBehaviour.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Common\\Behaviours\\LoggingBehaviour.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Common\\Behaviours\\LoggingBehaviour.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAkAAAAAAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\DependencyInjection.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T06:30:50.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetCallTypeRasadQueryHandler.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\Rasads\\Queries\\GetCallTypeRasadQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\Rasads\\Queries\\GetCallTypeRasadQueryHandler.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\Rasads\\Queries\\GetCallTypeRasadQueryHandler.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\Rasads\\Queries\\GetCallTypeRasadQueryHandler.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAtwEIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T06:29:16.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContactDetailsQueryService.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
-              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
-              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ContactDetailsQueryService.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAowNoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T13:12:23.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetContactDetailsQueryHandler.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsQueryHandler.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsQueryHandler.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsQueryHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wAsAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T09:54:45.977Z"
+              "WhenOpened": "2026-01-24T12:28:06.966Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GetContactDetailsByLinkedIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsByLinkedIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsByLinkedIdQueryHandler.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsByLinkedIdQueryHandler.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetContactDetailsByLinkedIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\UserManagement\\AccountController.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\UserManagement\\AccountController.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\UserManagement\\AccountController.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\UserManagement\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T09:54:44.965Z"
+              "WhenOpened": "2026-01-24T11:41:20.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GetAutoDialsQueryHandler.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetAutoDialsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetAutoDialsQueryHandler.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetAutoDialsQueryHandler.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\ContactDetails\\Queries\\GetAutoDialsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T09:54:42.445Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\appsettings.json",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\appsettings.json",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAiwAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-24T11:39:39.366Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ReportType.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\Enums\\ReportType.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\Enums\\ReportType.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\Enums\\ReportType.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\Enums\\ReportType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TestAsternettController.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\TestAsternettController.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\TestAsternettController.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\TestAsternettController.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\TestAsternettController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgCAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T09:54:23.304Z"
+              "WhenOpened": "2026-01-24T11:39:16.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContactDetail.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\ContactDetail.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\ContactDetail.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\ContactDetail.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\AggregatesModel\\ContactDetails\\ContactDetail.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Program.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Program.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wCUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T09:54:20.398Z"
+              "WhenOpened": "2026-01-24T11:30:56.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateFlatContactDetailListJobCommand.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\FlatContactDetails\\Commands\\CreateFlatContactDetailJob\\CreateFlatContactDetailListJobCommand.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\FlatContactDetails\\Commands\\CreateFlatContactDetailJob\\CreateFlatContactDetailListJobCommand.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\FlatContactDetails\\Commands\\CreateFlatContactDetailJob\\CreateFlatContactDetailListJobCommand.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\FlatContactDetails\\Commands\\CreateFlatContactDetailJob\\CreateFlatContactDetailListJobCommand.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAlwHcAAABFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\DependencyInjection.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\DependencyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawBcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T11:08:30.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FlatContactDetailsController.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\FlatContactDetailsController.cs",
-              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\FlatContactDetailsController.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\FlatContactDetailsController.cs",
-              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\FlatContactDetailsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCIAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T11:07:41.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ApiControllerBase.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\_ApiControllerBase.cs",
-              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\_ApiControllerBase.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\_ApiControllerBase.cs",
-              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\_ApiControllerBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T11:07:35.033Z"
+              "WhenOpened": "2026-01-24T07:17:43.082Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.HostedService\\appsettings.json",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.HostedService\\appsettings.json",
-              "RelativeToolTip": "src\\Goldiran.VOIPPanel.HostedService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-28T11:07:18.203Z"
+              "Title": "Goldiran.VOIPPanel.Api.http",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.http",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.http",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.http",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Goldiran.VOIPPanel.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-24T11:38:54.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\DependencyInjection.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:30:40.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\ExtensionMethods.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\ExtensionMethods.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\ExtensionMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:30:16.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PolicyAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Authorization\\PolicyAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Authorization\\PolicyAuthorizationHandler.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Authorization\\PolicyAuthorizationHandler.cs",
+              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Authorization\\PolicyAuthorizationHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:22:03.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateMonitoredPositionCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\MonitoredPositions\\Commands\\CreateMonitoredPositions\\CreateMonitoredPositionCommand.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\MonitoredPositions\\Commands\\CreateMonitoredPositions\\CreateMonitoredPositionCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\MonitoredPositions\\Commands\\CreateMonitoredPositions\\CreateMonitoredPositionCommand.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\MonitoredPositions\\Commands\\CreateMonitoredPositions\\CreateMonitoredPositionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:11:16.648Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "StaticDatasController.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\StaticDatasController.cs",
-              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\StaticDatasController.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\StaticDatasController.cs",
-              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\StaticDatasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "Title": "CommandUserMapperProfile.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\_UserManagement\\Users\\Mappers\\CommandUserMapperProfile.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\_UserManagement\\Users\\Mappers\\CommandUserMapperProfile.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Application\\Features\\_UserManagement\\Users\\Mappers\\CommandUserMapperProfile.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Application\\Features\\_UserManagement\\Users\\Mappers\\CommandUserMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T07:19:11.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Users\\TypeConfigurations\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Users\\TypeConfigurations\\AppUserConfiguration.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Users\\TypeConfigurations\\AppUserConfiguration.cs",
-              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Users\\TypeConfigurations\\AppUserConfiguration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:59:45.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SecureCallsController.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\SecureCallsController.cs",
-              "RelativeDocumentMoniker": "src\\Goldiran.VOIPPanel.Api\\Controllers\\SecureCallsController.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Goldiran.VOIPPanel.Api\\Controllers\\SecureCallsController.cs",
-              "RelativeToolTip": "src\\Goldiran.VOIPPanel.Api\\Controllers\\SecureCallsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T07:13:04.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Entities\\UserManagement\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Entities\\UserManagement\\AppUser.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Entities\\UserManagement\\AppUser.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Entities\\UserManagement\\AppUser.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:59:20.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SecureCall.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Asterisk\\SecureCall.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Asterisk\\SecureCall.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Asterisk\\SecureCall.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Asterisk\\SecureCall.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:53:45.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\DependencyInjection.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\DependencyInjection.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwEsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:50:50.558Z"
+              "WhenOpened": "2026-01-24T11:09:40.218Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "SecureCallQueryService.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\SecureCallQueryService.cs",
-              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\SecureCallQueryService.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\SecureCallQueryService.cs",
-              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\SecureCallQueryService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Title": "PermissionDefinitionResponse.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\PermissionDefinitionResponse.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\PermissionDefinitionResponse.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\PermissionDefinitionResponse.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\PermissionDefinitionResponse.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:12:30.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T07:44:29.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IdentityCommonResponse.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\IdentityCommonResponse.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\IdentityCommonResponse.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\IdentityCommonResponse.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Domain\\Common\\Models\\IdentityCommonResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:44:27.653Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserDto.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserDto.cs",
-              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserDto.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA8wCoAAAApAAAAAAAAAA==",
+              "Title": "GetAppRoleClaimsQuery.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\QueryRequest\\GetAppRoleClaimsQuery.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\QueryRequest\\GetAppRoleClaimsQuery.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\QueryRequest\\GetAppRoleClaimsQuery.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\QueryRequest\\GetAppRoleClaimsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T07:13:36.732Z"
+              "WhenOpened": "2026-01-24T07:12:13.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ServiceWallboardReportQueryService.cs",
-              "DocumentMoniker": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ServiceWallboardReportQueryService.cs",
-              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ServiceWallboardReportQueryService.cs",
-              "ToolTip": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ServiceWallboardReportQueryService.cs",
-              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.ReadModel\\Queries\\QueryServices\\ServiceWallboardReportQueryService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwCAAAAAkAAAAAAAAAA==",
+              "Title": "File.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Voip\\File.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Voip\\File.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Voip\\File.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Entities\\Voip\\File.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:12:02.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T07:09:45.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRoleDto.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserRoleDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserRoleDto.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserRoleDto.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\UserRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:08:51.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MonitoredPositionDto.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\MonitoredPositionDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\MonitoredPositionDto.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\MonitoredPositionDto.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\MonitoredPositionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:08:21.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FileRowDto.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileRowDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileRowDto.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileRowDto.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileRowDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:08:13.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FileDisplayDto.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDisplayDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDisplayDto.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDisplayDto.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDisplayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:07:59.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FileDto.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDto.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDto.cs",
+              "RelativeToolTip": "src\\core\\Goldiran.VOIPPanel.Entities\\Dto\\Voip\\FileDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:07:43.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\DependencyInjection.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwF0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:37:23.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppRoleStore.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleStore.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleStore.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleStore.cs",
+              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleStore.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:27:33.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppRoleManager.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleManager.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleManager.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleManager.cs",
+              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\Roles\\AppRoleManager.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:26:22.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppRoleClaimConfiguration.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\RoleClaims\\TypeConfigurations\\AppRoleClaimConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\RoleClaims\\TypeConfigurations\\AppRoleClaimConfiguration.cs",
+              "ToolTip": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\RoleClaims\\TypeConfigurations\\AppRoleClaimConfiguration.cs",
+              "RelativeToolTip": "src\\Infra\\Goldiran.VOIPPanel.Persistence\\Common\\UserManagement\\RoleClaims\\TypeConfigurations\\AppRoleClaimConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T06:26:11.762Z"
             }
           ]
         }

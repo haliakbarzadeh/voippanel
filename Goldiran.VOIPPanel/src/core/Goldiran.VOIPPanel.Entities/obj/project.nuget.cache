@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gB0E5MDpNeo=",
+  "dgSpecHash": "K8xeZLFgMug=",
   "success": true,
-  "projectFilePath": "D:\\akbarzadeh\\Projects\\VOIP\\goldiran-voip-panel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj",
+  "projectFilePath": "D:\\akbarzadeh\\khodnevis\\naderipoor\\github\\voippanel\\Goldiran.VOIPPanel\\src\\core\\Goldiran.VOIPPanel.Entities\\Goldiran.VOIPPanel.ReadModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
